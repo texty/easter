@@ -65,14 +65,17 @@
 
 
   i {
-    font-size:50px;
+    font-size:40px;
 
     color: lighten(black, 10%);
     margin: 0 0 0 0.5em;
     max-height: 1em;
     transition: all 0.5s;
-    @media #{$mobile} {
-      font-size:20px;
+    @media #{$mobile}, #{$iPads} {
+      font-size:30px;
+    }
+    @media #{$large} {
+      font-size:50px;
     }
 
     &:hover {
