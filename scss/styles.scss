@@ -59,6 +59,9 @@ main {
     text-align: left;
     width:50%;
     height:auto;
+    @media(max-width:800px) and (orientation: portrait) {
+      width:90%;
+    }
   }
   img {
     display:inline-block;

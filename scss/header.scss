@@ -91,6 +91,9 @@
   -o-background-size: cover;
   background-size: cover;
   background-position: top;
+  @media(max-width:800px) and (orientation: portrait) {
+    height:50vh;
+  }
 
 
 }
