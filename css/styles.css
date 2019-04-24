@@ -319,6 +319,8 @@ body {
 main {
   text-align: center; }
   main h1 {
+    font-family: 'Marck Script', cursive;
+    font-weight: normal;
     font-size: 68px; }
   main #intro {
     line-height: 1.6;
