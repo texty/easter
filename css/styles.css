@@ -336,6 +336,7 @@ body {
   60% {
     transform: translateY(-15px); } }
 h1 {
+  line-height: 1.5;
   font-family: "ClearSans", sans-serif;
   text-transform: uppercase;
   font-weight: bold;
