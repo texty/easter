@@ -65,9 +65,9 @@
 
 
   i {
-    font-size:40px;
+    font-size:50px;
 
-    color: lighten(black, 30%);
+    color: lighten(black, 10%);
     margin: 0 0 0 0.5em;
     max-height: 1em;
     transition: all 0.5s;
@@ -83,6 +83,7 @@
 
 
 #header {
+  display:flex;
   height:100vh;
   width:100%;
   background-image: url("../img/cover_easter.png");
@@ -92,8 +93,13 @@
   background-size: cover;
   background-position: top;
   @media(max-width:800px) and (orientation: portrait) {
-    height:50vh;
+    height:100vh;
   }
+
+  #picture {
+
+  }
+
 
 
 }
