@@ -4,6 +4,25 @@
 @import "footer";
 
 
+@font-face {
+  font-family: ClearSans;
+  font-weight: normal;
+  src: url('../fonts/ClearSans.eot') format('embedded-opentype');
+  src: url('../fonts/ClearSans.ttf') format("ttf");
+  src: url('../fonts/ClearSans.woff') format("woff");
+}
+
+@font-face {
+  font-family: ClearSans;
+  font-weight: bold;
+  src: url('../fonts/ClearSans-Bold.eot') format('embedded-opentype');
+  src: url('../fonts/ClearSans-Bold.ttf') format("ttf");
+  src: url('../fonts/ClearSans-Bold.woff') format("woff");
+
+}
+
+
+
 body {
   font-family: 'Roboto', sans-serif;
   margin:0;
@@ -44,8 +63,10 @@ body {
 }
 
 h1 {
-  font-family:'Marck Script', cursive;
-  font-weight: normal;
+  font-family: "ClearSans", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing:1px;
   font-size: 70pt;
   background-color: rgba(255,255,255,0.6);
   width:100%;
