@@ -340,7 +340,8 @@ h1 {
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 1px;
-  font-size: 60pt;
+  font-size: 56pt;
+  padding: 10px;
   background-color: rgba(255, 255, 255, 0.6);
   width: 100%;
   text-align: center;
